@@ -8,10 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      NODE_ENV: production
-      VITE_ENVIRONMENTS: ${{ secrets.VITE_ENVIRONMENTS }}
-      VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
 
     steps:
       - uses: actions/checkout@v2
