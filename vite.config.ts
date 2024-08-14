@@ -6,8 +6,8 @@ export default ({ mode }: ConfigEnv): UserConfig => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
   return defineConfig({
     base:
-      mode === 'production' && process.env.VITE_Environments === 'github'
-        ? process.env.VITE_BASE_URL
+      mode === 'production' && process.env.VITE_APP_Environments === 'github'
+        ? process.env.VITE_APP_BASE_URL
         : '/',
     plugins: [react()],
   });
