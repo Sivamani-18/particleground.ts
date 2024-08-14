@@ -72,17 +72,3 @@ This will start a local development server where you can see the `Particleground
 ## License
 
 Licensed under the MIT License.
-```
-
-### Steps for Setting Up the Demo
-
-1. **Deploy on Vercel/Netlify:**
-   - If you want to host the demo, you can deploy it using Vercel or Netlify by connecting your GitHub repository. They both offer free hosting with a simple setup process.
-
-2. **Add a Demo Page:**
-   - You can create a demo page in your project. For instance, in a Next.js setup, create a `pages/demo.tsx` that utilizes the `ParticleGround` component.
-
-3. **Update the Demo Link:**
-   - After deployment, update the demo link in the `README.md` with the URL provided by Vercel or Netlify.
-
-This approach will allow users to quickly see how `Particleground.ts` works and try it out directly.

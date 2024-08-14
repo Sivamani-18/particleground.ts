@@ -1,7 +1,7 @@
 {
   "name": "particleground.ts",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Particleground.ts is a React component library that creates a particle animation effect on a canvas, inspired by jquery.particleground.js.",
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
