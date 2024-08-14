@@ -1,6 +1,16 @@
+[![npm version](https://img.shields.io/npm/v/particleground.ts.svg?style=flat)](https://www.npmjs.com/package/particleground.ts)
+[![npm downloads](https://img.shields.io/npm/dt/particleground.ts.svg?style=flat)](https://www.npmjs.com/package/particleground.ts)
+[![npm license](https://img.shields.io/npm/l/particleground.ts.svg?style=flat)](https://www.npmjs.com/package/particleground.ts)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/particleground.ts.svg)](https://www.npmjs.com/package/particleground.ts)
+[![GitHub stars](https://img.shields.io/github/stars/Sivamani-18/particleground.ts.svg?style=social)](https://github.com/Sivamani-18/particleground.ts/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Sivamani-18/particleground.ts.svg?style=social)](https://github.com/Sivamani-18/particleground.ts/network/members)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=flat)](https://sivamani-18.github.io/particleground.ts/)
+
 # ParticleGround.ts
 
 `ParticleGround.ts` is a React component library that creates a particle animation effect on a canvas, inspired by `jquery.particleground.js`.
+
+Visit the project site: [Particleground.ts](https://sivamani-18.github.io/particleground.ts/)
 
 ## Installation
 
