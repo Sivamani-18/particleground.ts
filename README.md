@@ -12,6 +12,9 @@
 
 Visit the project site: [Particleground.ts](https://sivamani-18.github.io/particleground.ts/)
 
+![CPT2408140930-1068x578](https://github.com/user-attachments/assets/7ba4ed01-7ab4-4551-8ba5-4d0098cc751b)
+
+
 ## Installation
 
 Install via npm and yarn:
