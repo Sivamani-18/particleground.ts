@@ -66,7 +66,7 @@ export default App;
 
 ## Demo
 
-You can view a live demo of the `Particleground.ts` library [here](https://your-demo-url.com).
+You can view a live demo of the `Particleground.ts` library [here](https://sivamani-18.github.io/particleground.ts/).
 
 Or clone the repository and run the demo locally:
 
