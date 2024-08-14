@@ -1,8 +1,41 @@
-/src
-/demo
-/node_modules
+
 
 .gitignore
 # README.md
 rollup.config.js
 tsconfig.json
+
+# Ignore the following directories
+node_modules/
+/src
+/demo
+coverage/
+tests/
+examples/
+scripts/
+docs/
+dist/assets/
+
+# Ignore specific files
+*.log
+*.md
+*.map
+*.lock
+.DS_Store
+.env
+.vscode/
+.git/
+.idea/
+package-lock.json
+yarn.lock
+dist/*.png
+dist/favicon.ico
+dist/vite.svg
+dist/index.html
+
+# Include the necessary build files
+!dist/index.d.ts
+!dist/bundle.js
+!dist/bundle.js.map
+
+
