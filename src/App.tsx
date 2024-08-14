@@ -4,9 +4,11 @@ import { Home } from './pages/Home';
 
 function App() {
   const basename =
-    import.meta.env.MODE === 'production' ? import.meta.env.VITE_BASE_URL : '/';
+    import.meta.env.MODE === 'production'
+      ? import.meta.env.VITE_APP_BASE_URL
+      : '/';
 
-  console.log('basename', basename, import.meta.env.VITE_BASE_URL);
+  console.log('basename', basename, import.meta.env.VITE_APP_BASE_URL);
 
   return (
     <Router basename={basename}>

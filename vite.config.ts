@@ -5,10 +5,7 @@ import react from '@vitejs/plugin-react';
 export default ({ mode }: ConfigEnv): UserConfig => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
   return defineConfig({
-    base:
-      mode === 'production' && process.env.VITE_APP_Environments === 'github'
-        ? process.env.VITE_APP_BASE_URL
-        : '/',
+    base: mode === 'production' ? process.env.VITE_APP_BASE_URL : '/',
     plugins: [react()],
   });
 };
