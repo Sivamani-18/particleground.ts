@@ -27,6 +27,6 @@ jobs:
         uses: Sivamani-18/github-pages-action@v1.0.2
         with:
           github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: './out'
-          user_name: 'github-actions'
-          user_email: 'github-actions@github.com'
+          publish_dir: ./dist
+          user_name: 'Sivamani-18'
+          user_email: 'siva@mindwaveventures.com'
